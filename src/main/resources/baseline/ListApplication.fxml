@@ -38,7 +38,7 @@
       <Button fx:id="saveList" mnemonicParsing="false" onAction="#saveListClicked" text="Save List" GridPane.rowIndex="3" />
       <Button fx:id="editTitle" mnemonicParsing="false" onAction="#editTitleClicked" text="Edit Ttile" GridPane.rowIndex="4" />
       <Button fx:id="markComplete" mnemonicParsing="false" onAction="#markCompleteClicked" text="Mark Complete" GridPane.columnIndex="4" GridPane.rowIndex="4" />
-      <TextField fx:id="FileLocationTextbox" promptText="File Location" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+      <TextField fx:id="fileTextbox" promptText="File Location" GridPane.columnIndex="1" GridPane.rowIndex="3" />
       <Button fx:id="addTask" mnemonicParsing="false" onAction="#addTaskClicked" text="Add Task" GridPane.columnIndex="3" GridPane.rowIndex="2" />
       <Button fx:id="removeTask" mnemonicParsing="false" onAction="#removeTaskClicked" text="Remove Task" GridPane.columnIndex="5" GridPane.rowIndex="4" />
       <Button fx:id="editTask" mnemonicParsing="false" onAction="#editTaskClicked" text="Edit Task" GridPane.columnIndex="3" GridPane.rowIndex="5" />

@@ -12,6 +12,7 @@ import javafx.scene.control.TextField;
 
 public class ListAppController {
 
+    public TextField FileLocationTextbox;
     @FXML
     private Button addList;
 
@@ -34,7 +35,7 @@ public class ListAppController {
     private Button editTitle;
 
     @FXML
-    private TextField fileLocationTextbox;
+    private TextField fileTextbox;
 
     @FXML
     private Button incompleteTasks;
