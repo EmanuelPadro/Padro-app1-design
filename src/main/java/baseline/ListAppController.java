@@ -16,99 +16,100 @@ public class ListAppController {
     private Button addList;
 
     @FXML
-    private Button AddTask;
+    private Button addTask;
 
     @FXML
-    private Button AllTasks;
+    private Button allTasks;
 
     @FXML
-    private Button CompleteTasks;
+    private Button completeTasks;
 
     @FXML
-    private Button DisplayAllList;
+    private Button displayAllList;
 
     @FXML
-    private Button EditTask;
+    private Button editTask;
 
     @FXML
-    private Button EditTitle;
+    private Button editTitle;
 
     @FXML
-    private TextField FileLocationTextbox;
+    private TextField fileLocationTextbox;
 
     @FXML
-    private Button ImcompleteTasks;
+    private Button incompleteTasks;
 
     @FXML
-    private Button MarkComplete;
+    private Button markComplete;
 
     @FXML
-    private Button RemoveList;
+    private Button removeList;
 
     @FXML
-    private Button RemoveTask;
+    private Button removeTask;
 
     @FXML
     private Button saveList;
 
     @FXML
     void saveListClicked(ActionEvent event) {
-
+        //when savelist is clicked it should call a class which will go trough the process
     }
 
     @FXML
     void addListPressed(ActionEvent event) {
+        //when addList is clicked it should call a class which will go trough the process
 
     }
 
     @FXML
     void addTaskClicked(ActionEvent event) {
-
+        //when addTask is clicked it should call a class which will go trough the process
     }
 
     @FXML
     void displayCompleteTasks(ActionEvent event) {
-
+        //when displayCompleteTasks button is clicked it should call a class which will go trough the process
     }
 
     @FXML
     void displayIncompleteTasks(ActionEvent event) {
-
+        //when displayIncompleteTasks is clicked it should call a class which will go trough the process
     }
 
     @FXML
     void displayLists(ActionEvent event) {
-
+        //when displayLists is clicked it should call a class which will go trough the process
     }
 
     @FXML
     void displayTasks(ActionEvent event) {
-
+        //when displayTasks is clicked it should call a class which will go trough the process
     }
 
     @FXML
     void editTaskClicked(ActionEvent event) {
-
+        //when editTask is clicked it should call a class which will go trough the process
     }
 
     @FXML
     void editTitleClicked(ActionEvent event) {
-
+        //when editTitle is clicked it should call a class which will go trough the process
     }
 
     @FXML
     void markCompleteClicked(ActionEvent event) {
-
+        //when markComplete is clicked it should call a class which will go trough the process
     }
 
     @FXML
     void removeListClicked(ActionEvent event) {
-
+        //when removeList is clicked it should call a class which will go trough the process
     }
 
     @FXML
     void removeTaskClicked(ActionEvent event) {
-
+        //when removeTask is clicked it should call a class which will go trough the process
     }
 
 }

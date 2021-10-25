@@ -1,5 +1,11 @@
 package baseline;
 
+/*
+ *  UCF COP3330 Summer 2021 Application Assignment 1 Solution
+ *  Copyright 2021 first_name last_name
+ */
+
+
 public class ListandTasks {
 
     private ListandTasks(){}//Private constructor for utility class

@@ -11,11 +11,13 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
+import java.util.Objects;
+
 public class ListApp extends Application {
     @Override
     public void start(Stage stage) throws Exception {
         Parent root =
-                FXMLLoader.load(getClass().getResource("ListApplication.fxml"));
+                FXMLLoader.load(Objects.requireNonNull(getClass().getResource("ListApplication.fxml")));
 
         Scene scene = new Scene(root);
         stage.setTitle("List Application");
