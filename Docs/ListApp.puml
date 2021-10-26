@@ -11,7 +11,9 @@ editTaskDescription
 +deleteTask
 +displayList
 }
-class ListApp
+class ListApp{
+
+}
 class ListAppController{
 
 }
