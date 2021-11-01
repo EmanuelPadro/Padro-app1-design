@@ -6,9 +6,9 @@ package baseline;
  */
 
 
-public class ListandTasks {
+public class Operations {
 
-    private ListandTasks(){}//Private constructor for utility class
+    private Operations(){}//Private constructor for utility class
 
     public static void createList(String listTitle){
         //Will add a list to database
